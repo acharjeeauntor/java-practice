@@ -24,7 +24,7 @@ public class HelloWorld {
 		
 	}
 	
-	//Method Overloading  -Method name same but parameter different
+	//Method Overloading
 	public int addNumber(int a,int b,int c) {
 		int result = a+b+c;
 		return result;

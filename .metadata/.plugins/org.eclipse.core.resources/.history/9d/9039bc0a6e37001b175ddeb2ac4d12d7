@@ -18,18 +18,12 @@ public class HelloWorld {
 	}
 	
 	
-	public int addNumber(int a,int b) {
+	public int addTwoNumber(int a,int b) {
 		int result = a+b;
 		return result;
 		
 	}
 	
-	//Method Overloading  -Method name same but parameter different
-	public int addNumber(int a,int b,int c) {
-		int result = a+b+c;
-		return result;
-		
-	}
 	
 	
 	public static void main(String[] args) {
@@ -41,10 +35,8 @@ public class HelloWorld {
 	 hello.instanceVariable=30;
 	 staticmethod();
 	  HelloWorld.staticVariable=100;
-	  int AddTwoNumber = hello.addNumber(10, 20);
-	  System.out.println("The Addition of Two Number is:"+AddTwoNumber);
-	  int AddThreeNumber = hello.addNumber(10, 20,20);
-	  System.out.println("The Addition of Three Number is:"+AddThreeNumber);
+	  int res = hello.addTwoNumber(10, 20);
+	  System.out.println("The Addition of Two Number is:"+res);
 	  
 	}
 

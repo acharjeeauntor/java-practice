@@ -1,0 +1,17 @@
+package com.practice;
+
+public class StringDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		String s1 = "Auntor";
+		String s2 = "auntor";
+		
+		System.out.println(s1.length());
+		
+		
+	}
+
+}
