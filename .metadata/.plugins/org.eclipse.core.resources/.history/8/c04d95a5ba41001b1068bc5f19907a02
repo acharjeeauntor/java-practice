@@ -1,0 +1,27 @@
+package com.datastructure;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class HashMapDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		HashMapDemo demo = new HashMapDemo();
+		Map<Integer,String> x = demo.createHashMap();
+		demo.printMap(x);
+
+	}
+
+	
+	private Map<Integer,String> createHashMap(){
+		Map<Integer,String> empMap = new HashMap();
+		empMap.put(1, "Auntor");
+		empMap.put(2, "Asif");
+		return empMap;
+	}
+	
+	private void printMap(Map<Integer,String> mapToPrint) {
+		System.out.println(mapToPrint);
+	}
+}

@@ -1,0 +1,28 @@
+package com.inputOutputDemo;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class FileWriterDemo {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		File bikeInfoFile = new File("C:\\PracticeIO\\bikeInfo.txt");
+		FileWriterDemo filewriterdemo = new FileWriterDemo();
+		filewriterdemo.writeToFile(bikeInfoFile);
+
+	}
+	
+	
+	private void writeToFile(File fileToWrite) throws IOException {
+		FileWriter bikeInfo = new FileWriter(fileToWrite);
+		bikeInfo.write("Auntor");
+		bikeInfo.flush();
+		bikeInfo.close();
+	}
+	
+	
+	
+
+}

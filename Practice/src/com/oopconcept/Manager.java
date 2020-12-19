@@ -4,6 +4,7 @@ public class Manager {
 	
 	long salary;
 	Name name;
+	int superValue=10;
 	
 	Manager(){
 	}

@@ -1,0 +1,49 @@
+package com.datastructure;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.LinkedHashSet;
+import java.util.Set;
+
+public class SetDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		SetDemo demo = new SetDemo();
+		Set x= demo.createHashSet();
+		Set y = demo.createLinkedHashSet();
+		demo.printSet(x);
+		System.out.println("Linked Set");
+		demo.printSet(y);
+		
+
+	}
+	
+	
+	private Set createHashSet() {
+		HashSet<Integer> setOfIntegers = new HashSet<>();
+		setOfIntegers.add(100);
+		setOfIntegers.add(1520);
+		setOfIntegers.add(120);
+		return setOfIntegers;
+	}
+	
+	
+private Set createLinkedHashSet() {
+	LinkedHashSet<Integer> setOfIntegers = new LinkedHashSet<>();
+	setOfIntegers.add(1000);
+	setOfIntegers.add(10);
+	setOfIntegers.add(12);
+	return setOfIntegers;
+	}
+
+private void printSet(Set setToprint) {
+	Iterator setIterator = setToprint.iterator();
+	while(setIterator.hasNext()) {
+		System.out.println("Value: "+setIterator.next());
+	}
+}
+	
+
+}
