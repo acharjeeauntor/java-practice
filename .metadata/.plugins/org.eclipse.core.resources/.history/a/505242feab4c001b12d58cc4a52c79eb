@@ -1,9 +1,0 @@
-package com.advanceDataStructure;
-
-public class QueueExample {
-	
-	public static void main(String[] args) {
-		
-	}
-
-}
