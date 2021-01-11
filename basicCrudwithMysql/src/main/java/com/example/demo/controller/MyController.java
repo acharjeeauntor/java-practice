@@ -54,12 +54,6 @@ public class MyController {
 	}
 	
 	//Delete a single course
-//	@DeleteMapping("/courses/{courseId}")
-//	public boolean deleteCourse(@PathVariable String courseId ) {
-//		return courseservice.deleteCourse(Long.parseLong(courseId));
-//	}
-	
-	//Delete a single course
 	@DeleteMapping("/courses/{courseId}")
 	public ResponseEntity<HttpStatus> deleteCourse(@PathVariable String courseId ) {
 		try {

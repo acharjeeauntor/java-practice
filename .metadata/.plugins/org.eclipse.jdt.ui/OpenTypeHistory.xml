@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-    <typeInfo handle="=basicCrud/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.demo.services{CourseService.java[CourseService" modifiers="513" timestamp="1610184401921"/>
+    <typeInfo handle="=basicCrud/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.demo.services{CourseService.java[CourseService" modifiers="513" timestamp="1610248470312"/>
+    <typeInfo handle="=basicCrudwithMysql/C:\/Users\/USER\/.m2\/repository\/org\/hibernate\/hibernate-core\/5.4.25.Final\/hibernate-core-5.4.25.Final.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.hibernate=/=/maven.artifactId=/hibernate-core=/=/maven.version=/5.4.25.Final=/=/maven.scope=/compile=/&lt;org.hibernate.dialect(MySQL57Dialect.class[MySQL57Dialect" modifiers="33" timestamp="1610249428300"/>
 </typeInfoHistroy>
